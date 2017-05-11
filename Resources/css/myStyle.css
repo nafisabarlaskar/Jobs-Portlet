@@ -1,0 +1,75 @@
+a:link 
+{
+	color:#5F9EA0;
+}   
+
+a:visited 
+{
+	color:#5F9EA0;
+} 
+
+a:hover 
+{
+	text-decoration:underline
+}  
+
+a:active 
+{
+	color:#5F9EA0;
+} 
+
+a
+{ 
+	text-decoration:none;
+}
+
+.div
+{	
+	margin-top:100%
+
+}
+
+.header
+{
+	margin-top: 50px;
+width: 80%;
+}
+
+.footer
+{
+	margin-bottom: 90%;
+width: 100px;
+
+}
+.form-module {
+  position: relative;
+  background: #ffffff;
+  max-width: 320px;
+  width: 100%;
+  border-top: 5px solid #33b5e5;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+}
+
+html, body 
+{
+ 
+	width:  100%;
+  
+	height: 100%;
+
+	margin: 0px;
+  
+	border: 0;
+ /* overflow: hidden;  Disable scrollbars */
+  
+	display: block;
+		
+
+}
+
+.form-select {
+     max-width: 500px;
+    padding: 20px 12px 10px 20px;
+    font: 13px Arial, Helvetica, sans-serif;
+}

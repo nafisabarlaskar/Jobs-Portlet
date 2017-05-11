@@ -1,0 +1,564 @@
+.abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+font-weight: bold
+}
+.abc input
+{
+	font-weight: normal;
+}
+.spanStyle
+{
+	color:red;
+}
+.divValidation
+{
+	color: red;font-size: 12px;
+}
+.close {
+position:absolute;
+right:0px;
+top:-1px;
+cursor:pointer;
+width: 200px
+}
+.closes {
+position:absolute;
+right:-180px;
+top:-1px;
+cursor:pointer;
+width: 200px
+}
+.abc input[type=submit]
+{
+	font-weight: bold;
+	background-color: #008080;
+	width: 750px;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 50px;
+    padding: 0;
+    margin-right: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	
+}
+.popupContact {
+position:absolute;
+left:30%;
+top:17%;
+margin-left:-11%;
+font-family:'Raleway',sans-serif
+}
+.form {
+width: 1000px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#808080;
+margin-bottom: 15%;
+}
+.jobForm {
+width: 700px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:		#808080;
+margin-bottom: 15%;
+}
+.main
+{
+	 width: 800px;
+    margin: 0 auto;
+}
+.divTitle
+{
+	width: 200px;
+	color: black;
+	font-weight: bold;
+	text-align: left;
+	float: left;
+	
+	
+}
+.divInput
+{
+	width: 600px;
+	color: black;
+	text-align: left;
+	 margin-left: 200px;
+}
+.box {
+    width:800px;
+    background-color:#d9d9d9;
+    margin-left:25%; 
+    margin-top:1%;  
+    margin-bottom: 5%;
+    top:50%;
+    left:50%;
+    padding: 22px 15px;
+    table-layout:fixed;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+    border-radius: 4px; font-weight: normal; font-style: normal; font-size: 25px;  top: 60px; right: 40px;  text-align: center;
+}
+.description
+{
+	
+}
+.description[placeholder]
+{
+	line-height:30px;
+  font-size:15px;
+}
+.login
+{
+	width:400px;
+    height:400px;
+    background-color:#d9d9d9;
+    margin-left:40%; 
+    margin-top:0%; 
+    top:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; 
+    font-style: normal; font-size: 20pt;    text-align: center;
+	
+}
+.register
+{
+    width:700px;
+    height:800px;
+    overflow: scroll;
+    background-color:#d9d9d9;
+    position:absolute;
+    margin-left:-6%; /* half of width */
+    margin-top:-8%;  /* half of height */
+    top:50%;
+    left:35%;
+    padding: 30px;
+    margin-bottom: 10%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+    border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  text-align: center;
+}
+.edit
+{
+	display: inline-block;
+	background-color: #d9d9d9;
+	margin-left: 600px;
+	padding: 20px; 
+	width: 400px;
+}
+.edit input[type=submit], input[type=file]
+{
+	width: 80%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.edita
+{
+	margin-left: 1120px;
+	margin-top: 250px;
+	font-size: 20px;
+	font-color: green;
+}
+.editProfile
+{
+	width:600px;
+    height:400px;
+    overflow: scroll;
+    background-color:#d9d9d9;
+    position:absolute;
+    margin-left:-300px; /* half of width */
+    margin-top:300px;  /* half of height */
+    top:50%;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  top: 60px; right: 40px;  text-align: center;
+}
+
+.editEducation
+{
+	width:300px;
+    height:800px;
+    background-color:#d9d9d9;
+    position:absolute;
+    margin-left:-300px; /* half of width */
+    margin-top:340px;  /* half of height */
+    top:50%;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  top: 60px; right: 40px;  text-align: center;
+}
+
+.editEducation1
+{
+	width:300px;
+    height:850px;
+    background-color:#d9d9d9;
+    position:absolute;
+    margin-left:-300px; /* half of width */
+    margin-top:750px;  /* half of height */
+    top:50%;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  top: 60px; right: 40px;  text-align: center;
+}
+.addEdu
+{
+	margin-left:-300px; 
+    margin-top:400px;
+     top:50%;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  top: 60px; right: 40px;  text-align: center;
+}	
+
+.apply
+{
+    width:400px;
+    background-color:#d9d9d9;
+    margin-left:40%;
+    margin-top:2%;
+    margin-bottom: 2%;  
+    top:50%;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+    border-radius: 4px; 
+    font-weight: normal; 
+    font-style: normal; 	
+}
+.view
+{
+    width:400px;
+    height:400px;
+    overflow: scroll;
+    background-color:#d9d9d9;
+    margin-left:25%; /* half of width */
+    margin-top:0px;  /* half of height */
+    top:50%;
+    padding: 5px 10px;
+    left:50%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; border-radius: 4px; font-weight: normal; font-style: normal; font-size: 15pt;  top: 60px; right: 40px;  text-align: center;    
+}
+
+a:visited{
+	font-color: BlueViolet;
+}
+a:hover {
+    color: red;
+}
+
+
+a:active {
+    color: BlueViolet;
+}
+
+
+.table1
+{
+	 margin-top: 30px; 
+    background-color: #f1f1f1;
+     align: center;
+     height: 148px; 
+     margin-left: 15%;
+     width: 70%;  font-family: 'Josefin Sans', sans-serif; font-weight: bold; font-style: normal; font-size: 20pt;  
+     color:#7FFFD4;
+}
+.footer
+{
+	 margin-top: 1300px;
+	 position: relative;
+     background-color: #f1f1f1;
+     align: center;
+     height: 148px; 
+     margin-left: 800px;
+     height: 80px;
+     width: 80%;  font-family: 'Josefin Sans', sans-serif; font-weight: bold; font-style: normal; font-size: 20pt;  top: 10px; right: 30%;color:#7FFFD4;
+}
+.table2
+{
+	height:56px; margin-left: 9%; width: 70%;"
+}
+.row
+{
+	padding: 15px;	
+	width: 10%;
+	color: black;
+	font-family:'Josefin Sans', sans-serif;
+	font-size: 25px
+	
+}
+
+form
+{
+	top:50%; left:50%; width:250px; text-align:right;
+}
+input[type=text], select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-family: 'Josefin Sans', sans-serif;
+    display: inline-block;
+    border: 1px solid #ccc;
+    height: 50px;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=number], select {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 12px 20px;
+    height: 50px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=file] {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+}
+
+.submit2  {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #7B68EE;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #7B68EE;
+}
+input[type=date], select {
+    width: 80%;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password], select {
+    width: 80%;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=reset] {
+    width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #7B68EE;
+    height: 50px;
+    padding: 0;
+    margin-right: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submit1 
+{
+	width: 40%;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #7B68EE;
+    height: 50px;
+    padding: 0;
+    margin-right: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+div {
+    border-radius: 5px;
+    font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 20px;
+}
+select{
+width: 80%;
+font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+    padding: 14px 20px;
+    margin: 8px 0;
+    height: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+img{
+    
+    width: 10%;
+}
+.para
+{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+     font-weight: normal; 
+     font-style: normal; 
+     font-size: 25pt;  
+     top: 10px; left: 100px;
+     margin-left: 40%;
+     width: 400px;
+}
+
+.parag{
+     font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; 
+     font-weight: normal; 
+     font-style: normal; 
+     font-size: 25pt;  
+     margin-left: 40%;
+}
+
+
+.dropbtn {
+	background-color: #f1f1f1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    font-family:'Josefin Sans', sans-serif;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: #008B8B;
+    padding: 8px 9px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.jobsDisplay
+{
+	display: inline-block;
+	background-color: #d9d9d9;
+	margin: 30px;
+	padding: 20px; 
+	width: 300px;
+}
+.jobs
+{
+	margin-left: 18%;
+	width: 70%;	
+}
+
+.jobsDisplays
+{
+	background-color: #d9d9d9;
+	margin: 30px;
+	margin-left: 18%;
+	padding: 20px; 
+	width: 60%;
+}
+
+.texts
+{
+	display: inline-block;
+	font-weight: bold;
+	font-size: 22px;
+	width: 20%;
+}
+.texts1
+{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 20px;
+	width: 20%;
+}
+.texts2
+{
+	display: inline-block;
+	font-weight: normal;
+	font-size: 20px;
+	width: 5%;
+}
+.texts a
+{
+	color: #2E8B57;
+}
+
+.text
+{
+	font-weight: bold;
+	font-size: 25px;
+}
+.text a
+{
+	color: #008B8B;
+    display: block;
+    margin-left: 80%;
+}
+.text input[type=submit]
+{
+	font-weight: bold;
+}
+.jobsText
+{
+	font-color: #2F4F4F;
+	font-weight:bold;
+}
+.jobsValue
+{
+	display:inline;
+}
+.edit
+{
+	font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; font-weight: normal; font-style: normal; font-size: 25pt;  top: 10px; left: 0px; padding: 10px 10px 10px 10px; right: 200px;text-align: center;
+}
